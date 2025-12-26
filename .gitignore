@@ -66,6 +66,7 @@ resume1.code
 #
 !.gitignore
 !.mailmap
+!.dockerignore
 
 #
 # Generated include files
@@ -114,3 +115,7 @@ rootfs.cpio.gz
 drivers/arisc/binary/arisc
 modules/eurasia_km/eurasiacon/binary2_sunxi_android_release/
 tools/perf-target
+
+# Following created by Methry, for branch init/docker:
+/kernel_output/*
+!/kernel_output/.gitkeep
