@@ -3,6 +3,7 @@
 #define _LINUX_SCENELOCK_DATA_H
 
 #include <linux/power/axp_depend.h>
+#include <linux/power/aw_pm.h>
 #ifdef CONFIG_ARCH_SUN50IW1P1
 #include "scenelock_data_sun50iw1p1.h"
 #elif defined(CONFIG_ARCH_SUN50IW2P1)
