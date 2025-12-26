@@ -11,6 +11,7 @@
 #include <linux/platform_device.h>
 #include <linux/suspend.h>
 #include <linux/power/scenelock.h>
+#include <linux/power/aw_pm.h>
 #include "scenelock_data.h"
 #include "power.h"
 #ifdef CONFIG_HAS_WAKELOCK
